@@ -28,7 +28,7 @@ const About = () => {
                           has led me to learn a diverse skill set, including <br />
                             Node.js, Bootstrap, HTML, CSS, Python, JavaScript, React, and<br />
                             Next.js. I'm also a studnet at NSCC  studying<br />
-                             database administration .<br/><strong>I am looking for an IT co-op job for the summer of 2024.</strong> Thank you for <br />
+                             database administration .<br/><strong>I am looking for an IT co-op job for the summer of 2024. </strong> Thank you for <br />
                              taking the time to explore my portfolio..</p>
                 </Col>
 
