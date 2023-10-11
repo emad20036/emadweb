@@ -1,0 +1,201 @@
+.exp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.experience h2 {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+
+
+.ooo {
+    background-color: #823ae0;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+     border-radius: 20px;
+     transition: 0.4s ease;
+     cursor: pointer;
+
+}
+.ooo:hover {
+    opacity: 0.6;
+}
+
+.job1 {
+    display: flex;
+    
+    
+    align-items: center;
+    justify-content: space-between;
+    gap: 120px;
+    flex-wrap: wrap;
+}
+
+
+.job {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.rem {
+    margin-bottom: 50px;
+    margin-right: 100px;
+}
+/* Your existing CSS styles for Experience.css */
+
+.experience-section {
+    background-color: #212121;
+    padding: 50px 0; /* Add padding for spacing */
+  }
+  
+  .exp-image {
+    text-align: center; /* Center the image */
+    margin-bottom: 20px;
+  }
+  
+  .exp-content {
+    color: white;
+    text-align: center;
+  }
+  
+  .experience h2 {
+    font-size: 40px;
+  }
+  
+  .job1 {
+    background-color: #823ae0;
+    height: auto; /* Remove fixed height */
+    padding: 20px;
+    border-radius: 20px;
+    transition: 0.4s ease;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+
+  .job {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .rem {
+    margin-bottom: 20px; /* Adjust margin as needed */
+    margin-right: 0; /* Remove right margin */
+  }
+
+  
+  /* Adjust font sizes for smaller screens */
+  @media (max-width: 768px) {
+    .exp-content h2 {
+      font-size: 6vw; /* Adjust as needed */
+    }
+  
+    .job h5 {
+      font-size: 3vw; /* Adjust as needed */
+    }
+    .me1 {
+      height: 60%;
+    }
+#About {
+  padding-bottom: 40px;
+}
+    .me2 {
+      height: 40vh;
+    }
+  
+    .job p {
+      font-size: 2.5vw; /* Adjust as needed */
+    }
+
+    .rem {
+      margin-left: 40px;
+    }
+    .job1 {
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 40px;
+    }
+
+    .exp-content {
+      gap: 2%;
+    }
+    
+  }
+  .job1:hover {
+    opacity: 0.6;
+  }
+  .job1 {
+    transition: 0.6s ease;
+  }
+
+
+@media (min-width: 768px) and (max-width: 1200px) {
+
+
+  .job1 {
+    padding: 10px; 
+    gap: 10px; 
+    margin-bottom: 40px;
+    justify-content: center;
+
+  }
+
+  .job h5 {
+    font-size: 18px; 
+  }
+
+  .job p {
+    font-size: 16px; /* Adjust font size for job description for medium screens */
+  }
+  .exp-content h2 {
+    padding-bottom: 10px;
+    font-size: 30px;
+    
+  }
+
+  .exp-content {
+    gap: 5%;
+  }
+
+  .rem {
+    margin-left: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .exp-image {display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+ 
+
+ 
+}
+
+.meta {
+  font-size: 40px;
+}
+
+.exp-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+}

@@ -1,0 +1,319 @@
+.col2 {
+    background-color: #212121;
+    height: 90vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+    flex-wrap: wrap;
+}
+h1{
+    color: white;
+}
+
+p {
+    color: white;
+}
+h6 {
+    color: white;
+}
+
+.col1 {
+    background-color: #823ae0;
+    height: 90vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-bottom: 40px;
+    
+}
+
+.main-icons a {
+    font-size: 35px;
+    color: #212121;
+    text-align: center;
+    margin-left: 20px;
+    margin-bottom: 40px;
+   
+    
+}
+
+.main-icons p{
+    color: #212121;
+    text-align: center;
+    padding-top: 40px;
+    padding-left: 60px;
+    font-family: 'Cinzel Decorative', cursive;
+
+
+}
+
+#con {
+    margin-left: 0;
+    margin-right: 0;
+    max-width: 100%;
+    
+}
+
+.col3 {
+    background: linear-gradient(to right, #823ae0 50%, #212121 50%);
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+
+#myimg {
+    display: block;
+  max-width: 75%;
+  height: auto;
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2); /* Add shadow */
+  border-radius: 50%;
+}
+
+.qoute {
+    font-style: italic;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+
+.buttons button {
+    
+    width: 200px;
+    height: 50px;
+    border-radius: 40px;
+    border: 2px solid #823ae0;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.btn1 {
+    background-color: #823ae0;
+    transition: 0.8s ease;
+    color: #212121;
+
+
+
+}
+
+.btn2 {
+    color: #823ae0;
+    background-color: #212121;
+    transition: 0.8s ease;
+    
+}
+
+.btn1:hover {
+    background-color: #212121;
+    color: #823ae0;
+    
+}
+
+.btn2:hover {
+    background-color: #823ae0;
+    color: #212121;
+}
+
+@media (max-width: 768px) { /* Adjust the max-width to your desired breakpoint */
+    .col3 {
+      background: linear-gradient(to bottom, #823ae0 50%, #212121 50%);
+      height: 10vh;
+    }
+    .col2 {
+        height: 50vh;
+    }
+    .col1{
+        height: 10vh;
+    }
+  }
+
+
+  .div-main {
+    
+    padding-left: 15px;
+    
+  }
+
+.ico :hover {
+    opacity: 0.5;
+}
+
+.ico {
+    transition: 0.9s ease;
+}
+
+#but {
+    background-color: #823ae0;
+    color: #212121;
+    border: #823ae0;
+    font-size: 20px;
+}
+
+.li {
+    color: #823ae0;
+}
+@media (max-width: 768px) {
+    .col3 {
+      background: linear-gradient(to bottom, #823ae0 50%, #212121 50%);
+      height: 10vh;
+    }
+    .col2 {
+      height: auto; /* Adjust height as needed */
+    }
+    .col1 {
+      height: auto; /* Adjust height as needed */
+    }
+  }
+  @media (min-width: 650px) and (max-width:780px) {
+    #myimg {
+      max-width: 50%;
+    }
+    .main-icons a {
+      font-size: 25px;
+    }
+    .main-icons p {
+      padding-left: 20px;
+      padding-right: 20px;
+      
+    }
+    h1 {
+      font-size: 24px;
+    }
+    p {
+      font-size: 16px;
+    }
+    h6 {
+      font-size: 14px;
+    }
+    .qoute {
+      font-size: 14px;
+    }
+    .buttons {
+      gap: 20px;
+    }
+    .buttons button {
+      width: 150px;
+      height: 40px;
+      font-size: 16px;
+    }
+   
+    .col2 {
+      padding-bottom: 30px;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      text-align: center;
+      gap: 10px;
+    }
+    .col1 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .div-main {
+      padding-left: 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .div-main a {
+      padding-left: 0;
+      padding-right: 0;
+      margin-left: 10px;
+      display: block;
+    }
+  }
+  @media (max-width: 650px) {
+    #myimg {
+      max-width: 70%;
+    }
+    .main-icons a {
+      font-size: 25px;
+    }
+    .main-icons p {
+      padding-left: 20px;
+      padding-right: 20px;
+      
+    }
+    h1 {
+      font-size: 24px;
+    }
+    p {
+      font-size: 16px;
+    }
+    h6 {
+      font-size: 14px;
+    }
+    .qoute {
+      font-size: 14px;
+    }
+    .buttons {
+      gap: 20px;
+    }
+    .buttons button {
+      width: 150px;
+      height: 40px;
+      font-size: 16px;
+    }
+    .buttons {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+   
+    .col2 {
+      padding-bottom: 30px;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      text-align: center;
+      gap: 10px;
+    }
+    .col1 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .div-main {
+      padding-left: 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .div-main a {
+      padding-left: 0;
+      padding-right: 0;
+      margin-left: 10px;
+      display: block;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    #myimg {
+      max-width: 105%;
+    }
+    .main-icons p {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    .div-main {
+      padding-left: 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+  }
+
+  .colmo :hover {
+    color: #823ae0;
+  }

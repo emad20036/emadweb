@@ -1,0 +1,220 @@
+#contact {
+    height: 95%;
+    background-color: #212121;
+    margin: 0;
+    max-width: 100%;
+}
+#contact h1 {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#fo {
+    max-width: 80%;
+   padding-left: 12%;
+}
+#subbutton {
+    padding-left: 12%;
+    padding-right: 20%;
+}
+
+.icon {
+    max-width: 50px;
+    height: auto;
+    color: #823ae0;
+}
+
+.middile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.top {
+    padding-left: 70px;
+    padding-right: 70px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+    background-color: #212121;
+}
+
+.middile p {
+    font-size: 20px;
+    font-weight: 500;
+    color: #823ae0;
+}
+
+.iconns {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.iconns a {
+    font-size: 35px;
+    color: #823ae0;
+    padding-right: 30px;
+}
+
+.fine {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.fine p {
+    font-size: 20px;
+    font-weight: 500;
+    color: #823ae0;
+    padding-top: 50px;
+}
+
+  
+  @media (max-width: 768px) {
+    .middile p {
+      font-size: 10px;
+    }
+    .iconns {
+        display: flex;
+        justify-content: center;
+        padding-top: 20px; 
+        flex-wrap: wrap;
+      }
+      
+      .iconns a {
+        font-size: 40px;
+        color: #823ae0;
+        margin: 0 auto;
+        padding-left: 20px;
+      }
+     
+#fo {
+    max-width: 100%;
+    padding-left: 0; 
+  }
+  
+ 
+  #subbutton {
+    padding-left: 0;
+    padding-right: 0; 
+  }
+
+
+  
+  .middile p {
+    font-size: 20px;
+
+    
+  }
+  
+  .fine {
+    flex-direction: column;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .fine p {
+    font-size: 15px;
+  }
+  #confont {
+    font-size: 13px;
+  }
+  .top {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .icon {
+    width: 25px;
+    padding-bottom: 20px;
+  }
+  #whole {padding-left: 10%;
+    padding-right: 10%;}
+/* Center align the social media icons */
+  }
+
+  /* Your existing CSS */
+#contact {
+  height: 95%;
+  background-color: #212121;
+  margin: 0;
+  max-width: 100%;
+}
+
+@media (max-width: 1024px) {
+  .iconns {
+    text-align: center;
+    padding-top: 20px;
+    flex-wrap: wrap;
+  }
+
+  .middile {
+    justify-content: space-evenly;
+  }
+
+  .iconns a {
+    font-size: 40px;
+    color: #823ae0;
+    margin: 0 auto;
+    padding-left: 20px;
+  }
+
+  #fo {
+    max-width: 100%;
+    padding-left: 0;
+  }
+
+  #subbutton {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .middile p {
+    font-size: 20px;
+  }
+
+  .fine {
+    flex-direction: column;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .fine p {
+    font-size: 15px;
+  }
+
+  #confont {
+    font-size: 13px;
+  }
+
+  .top {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .icon {
+    width: 25px;
+    padding-bottom: 20px;
+  }
+  #whole {padding-left: 10%;
+    padding-right: 10%;}
+}
+
+
+#whole {
+  background-color: #212121;
+  box-sizing: border-box;
+  
+}
+
+.middile p {
+  font-size: 17px;
+}
+.icon {
+  max-width: 35px;
+}

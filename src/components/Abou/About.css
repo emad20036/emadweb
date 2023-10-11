@@ -1,0 +1,91 @@
+hr {
+    height: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #823ae0;
+    margin-top: 0;
+    width:50px;
+}
+
+.About {
+    background-color: #212121;
+
+}
+
+.About h1 {
+    color: white;
+    text-align: center;
+    margin:0;
+}
+
+.me1 {
+    height: 70vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+
+
+}
+
+
+.me2 {
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Ami {
+    max-width: 100%;
+    height: auto;
+}
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px); /* Optional: Slide from bottom */
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0); /* Optional: Slide to original position */
+    }
+  }
+
+
+  .me1 h2 {
+    color: white;
+    margin-bottom: 20px;
+
+  }
+
+  @media (max-width: 768px) {
+    .me1 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      height: 70vh;
+    }
+    .me2 {
+      height: 50vh;
+    }#hola {
+  padding-bottom: 60px;
+}
+  }
+
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .me1 {
+
+      height: 80vh;
+      
+    }
+
+    .me2 {
+      height: 80vh;
+    }
+    
+  }
+
+.title {
+  margin-top: 40px;
+}
